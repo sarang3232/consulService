@@ -19,9 +19,7 @@ app.get('/health', function (req, res) {
 
 app.get('/', (req, res) => {
   console.log('GET /', Date.now());
-  res.json( "Este es el servidor 2"
-           
-  );
+  res.json( "Este es el servidor 2");
 });
 
 app.listen(PORT, function () {
